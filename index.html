@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple Wikipedia-style single-page project.">
+  <title>Simple Wiki — The Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="brand"><div class="logo">W</div><div><h1>Simple Wiki</h1><p>A small encyclopedia-style website</p></div></div>
+    <form class="search-form"><label for="search">Search</label><input id="search" type="search" placeholder="Search the wiki"><button>Search</button></form>
+  </header>
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="#home">Home</a><a href="#history">History</a><a href="#features">Features</a><a href="#table">Table</a><a href="#articles">Articles</a><a href="#contact">Contact</a>
+  </nav>
+
+  <div class="page-layout">
+    <aside class="sidebar">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#home">Introduction</a></li><li><a href="#history">History</a></li><li><a href="#features">Features</a></li><li><a href="#table">Comparison</a></li><li><a href="#articles">Related articles</a></li><li><a href="#contact">Contact</a></li>
+      </ol>
+      <aside class="info-box"><h3>Quick facts</h3><p><strong>Topic:</strong> The Web</p><p><strong>Type:</strong> Technology</p><p><strong>Status:</strong> Active</p></aside>
+    </aside>
+
+    <main class="content" id="home">
+      <article>
+        <header class="article-header"><h2>The World Wide Web</h2><p><em>From Simple Wiki, the free encyclopedia</em></p></header>
+        <figure class="hero"><img src="https://picsum.photos/seed/worldwideweb/1000/350" alt="Decorative landscape representing the web"><figcaption>A sample image used in this encyclopedia-style article.</figcaption></figure>
+        <p>The <strong>World Wide Web</strong> is an information system that allows documents and other resources to be connected through hyperlinks. It is one of the most recognizable uses of the Internet.</p>
+        <p>This project demonstrates semantic HTML elements such as <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;footer&gt;</code>.</p>
+
+        <section id="history"><h2>History</h2><p>The Web was developed as a way to make information easier to share and connect. Its foundation relies on technologies including HTML, URLs, and HTTP.</p><blockquote>“The Web is an information space in which the items of interest are identified by global identifiers.”</blockquote><h3>Important technologies</h3><ul><li><strong>HTML</strong> — document structure.</li><li><strong>CSS</strong> — presentation and layout.</li><li><strong>JavaScript</strong> — behavior and interaction.</li></ul></section>
+
+        <section id="features"><h2>Features</h2><article class="card"><h3>Hyperlinks</h3><p>Links connect documents and resources. Visit <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a> to learn more.</p></article><article class="card"><h3>Lists</h3><ol><li>Create a document.</li><li>Add semantic structure.</li><li>Style the page with CSS.</li><li>Add behavior with JavaScript.</li></ol><h4>Common terms</h4><dl><dt>Browser</dt><dd>Software used to access web pages.</dd><dt>Server</dt><dd>A service that provides resources to clients.</dd><dt>URL</dt><dd>An address used to identify a resource.</dd></dl></article></section>
+
+        <section id="table"><h2>Web technology comparison</h2><table><caption>Three common web technologies</caption><thead><tr><th>Technology</th><th>Main purpose</th><th>Example</th></tr></thead><tbody><tr><th>HTML</th><td>Structure</td><td>Headings and paragraphs</td></tr><tr><th>CSS</th><td>Presentation</td><td>Colors and layout</td></tr><tr><th>JavaScript</th><td>Behavior</td><td>Interactive controls</td></tr></tbody><tfoot><tr><th colspan="2">Technologies shown</th><td>3</td></tr></tfoot></table></section>
+
+        <section id="articles"><h2>Related articles</h2><div class="article-grid"><article class="card"><h3>HTML</h3><p>HTML gives a web page its structure.</p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Read about HTML</a></article><article class="card"><h3>CSS</h3><p>CSS controls the appearance of documents.</p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Read about CSS</a></article><article class="card"><h3>JavaScript</h3><p>JavaScript adds logic and interaction.</p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Read about JavaScript</a></article></div></section>
+
+        <section id="contact"><h2>Contact / Feedback</h2><form class="feedback-form"><fieldset><legend>Send feedback</legend><label for="name">Name</label><input id="name" required><label for="email">Email</label><input id="email" type="email" required><label for="topic">Topic</label><select id="topic"><option>General feedback</option><option>Article suggestion</option><option>Correction</option></select><label for="message">Message</label><textarea id="message" rows="5" required></textarea><label class="checkbox"><input type="checkbox"> Send me occasional updates</label><button>Send feedback</button></fieldset></form></section>
+        <footer class="article-footer"><p><small>Last edited: <time datetime="2026-09-19">19 September 2026</time></small></p><a href="#top">Back to top ↑</a></footer>
+      </article>
+    </main>
+  </div>
+
+  <footer class="site-footer"><p>&copy; 2026 Simple Wiki.</p><nav aria-label="Footer navigation"><a href="#home">Home</a><a href="#contact">Contact</a><a href="#top">Top</a></nav></footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,2 +1,7 @@
-# Simple-Wiki-The-World-Wide-Web
-A simple single-page Wikipedia-style website built with semantic HTML, CSS, and JavaScript. It demonstrates a header, navigation, sidebar, articles, sections, images, links, lists, tables, forms, and a responsive footer.
+# Simple Wiki Project
+
+Single-page Wikipedia-style website using plain HTML, CSS, and JavaScript.
+
+Includes semantic header/nav/main/section/article/aside/footer elements, images, links, lists, tables, forms, sidebar contents, search interaction, and responsive styling.
+
+Open `index.html` in a modern browser. No build tools or dependencies are required.
